@@ -50,4 +50,4 @@ jobs:
         app-name: 'mak-app1'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_8e666b4f8c344248a0a311b4e2e25681 }}
-        package: '*.war'
+        package: '*.jar'
